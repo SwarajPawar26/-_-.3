@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    background: transparent;
+    background-size: cover;
+
+    background-image: linear-gradient(326deg,#a4508b 0%, #5f0a87 74%);
+}
+
+.Logo{
+    margin-top: 13px;
+    margin-left: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(233, 230, 255);
+    font-size: 25px;
+   
+}
+
+.buttons button{
+
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    width: 70px;
+    height: 70px;
+    color: rgb(3, 1, 133);
+    background-color: rgba(187, 162, 255, 0.658);
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.buttons button:hover{
+    background-color: rgb(74, 0, 192);
+    color: rgb(205, 217, 255);
+    
+}
+
+
+.cal{
+    
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8em;
+    
+}
+
+.cal span{
+    font-size: 15px;
+}
+
+.cal .display{
+    background-color: rgb(212, 194, 255);
+    border: 3px solid rgb(212, 194, 255);
+    width: 96.3%;
+    border-radius: 9px;
+    height: 60px;
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px, rgba(0, 0, 0, 0.15) 0px 6px 6px;
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(250, 245, 255);
+    letter-spacing: 2px;
+}
+
+.display:hover{
+    background-color: rgb(212, 194, 255);
+}
